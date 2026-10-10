@@ -136,6 +136,22 @@ ENV/
 env.bak/
 venv.bak/
 
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local API keys and credentials
+secrets/
+credentials.json
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
